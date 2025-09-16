@@ -1,0 +1,19 @@
+{
+  "database": {
+    "client": "pg",
+    "connection": {
+      "host": "evershop-database.cizu0kyskg2j.us-east-1.rds.amazonaws.com",
+      "user": "postgres",
+      "password": "Shubham211202",
+      "database": "my_evershop",
+      "port": 5432,
+      "ssl": {
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "server": {
+    "host": "0.0.0.0",
+    "port": 3000
+  }
+}
