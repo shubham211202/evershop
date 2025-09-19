@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "evershop build",
-    "start": "evershop start",
+    "build": "react-scripts build",
+    "start": "react-scripts start",
     "user:create": "evershop user:create"
   },
   "author": "",
