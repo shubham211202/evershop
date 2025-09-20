@@ -4,14 +4,19 @@
     {
       "src": "package.json",
       "use": "@vercel/static-build",
-      "config": { "distDir": ".evershop/build/frontStore" }
+      "config": { "distDir": ".evershop/build/frontstore" }
     }
   ],
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
+    { "src": "/", "dest": "/homepage/index.html" },
+    { "src": "/cart", "dest": "/cart/index.html" },
+    { "src": "/login", "dest": "/login/index.html" },
+    { "src": "/register", "dest": "/register/index.html" },
+    { "src": "/account", "dest": "/account/index.html" },
+    { "src": "/checkout", "dest": "/checkout/index.html" },
+    { "src": "/productView", "dest": "/productView/index.html" },
+    { "src": "/categoryView", "dest": "/categoryView/index.html" },
+    { "src": "/.*", "dest": "/notFound/index.html" }
   ]
 }
 
