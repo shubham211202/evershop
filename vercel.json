@@ -1,4 +1,17 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": ".evershop/build/frontStore"
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": { "distDir": ".evershop/build/frontstore" }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
 }
+
