@@ -9,7 +9,7 @@
   ],
   "routes": [
 	  { "src": "/", "dest": "/"},
-	  { "src": "/test", "dest": "/"}.
+	  { "src": "/test", "dest": "/"},
     { "src": "/", "dest": "/homepage/index.html" },
     { "src": "/cart", "dest": "/cart/index.html" },
     { "src": "/login", "dest": "/login/index.html" },
